@@ -1,16 +1,12 @@
 # image_picker1
 
-A new Flutter project.
+## ImagePicker
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<img src="https://github.com/Shalu6634/image_picker1/assets/149373622/8c52d328-eca6-4ef3-933d-a13d08cf39ca" width = 20%  height = 25%>
+<img src="https://github.com/Shalu6634/image_picker1/assets/149373622/2b4d29ce-2689-4047-9662-53d9868c5734" width = 20%  height = 25%>
+<img src="https://github.com/Shalu6634/image_picker1/assets/149373622/d2cf12bb-2b24-46ab-84c8-04f51618afcc" width = 20%  height = 25%>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Shalu6634/image_picker1/assets/149373622/e3128955-ba28-46f5-ad6f-587ed7ceeb3b
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
