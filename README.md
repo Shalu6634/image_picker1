@@ -25,7 +25,5 @@ https://github.com/Shalu6634/image_picker1/assets/149373622/0b7eab96-66c6-4ec5-a
 
 <img src = "https://github.com/Shalu6634/image_picker1/assets/149373622/125ce396-9746-42c5-ac5d-04ea99362dbd" width = 25%  height = 25%>
 
-
-
-
+https://github.com/Shalu6634/image_picker1/assets/149373622/74684039-51df-4828-bb57-ce0bf0aa3fe7
 
