@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DynamicText extends StatefulWidget {
@@ -25,8 +26,9 @@ class _DynamicTextState extends State<DynamicText> {
               (index) => ListTile(
                 title: TextField(
                   controller: txtControllerList[index],
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                     border: OutlineInputBorder(),
+
                   ),
                 ),
                 trailing: Row(
@@ -41,13 +43,13 @@ class _DynamicTextState extends State<DynamicText> {
                           txtControllerList.add(txtController);
                         });
                       },
-                      icon: Icon(Icons.add_circle),
+                      icon: Icon(Icons.add_circle,color: Colors.grey,),
                     ),
                     IconButton(onPressed: (){
                       setState(() {
                         txtControllerList.removeAt(index-1);
                       });
-                    }, icon: Icon(Icons.close))
+                    }, icon: Icon(Icons.close,color: Colors.red,))
                   ],
                 ),
               ),
@@ -56,19 +58,24 @@ class _DynamicTextState extends State<DynamicText> {
         ),
         floatingActionButton: FloatingActionButton(onPressed: (){
 
-          String skills = txtController.text;
-      
-          for(int i=1; i<txtControllerList.length; i++)
+          setState(() {
+            skills  = '';
+            for(int i=0;i< txtControllerList.length;i++)
             {
-              skills = skills + " "+ txtControllerList[i].text;
+              skills='$skills'  + '  '+'${ txtControllerList[i].text}';
             }
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('${skills} ${txtControllerList[1].text}'),),);
-      
-        },child: Icon(Icons.shortcut),),
+            // print(skills);
+            Navigator.of(context).pushNamed('/show');
+          });
+
+        },child: Icon(Icons.shortcut,color: Colors.green,),)
+        ,
       ),
     );
   }
 }
 
+String skills = '';
 TextEditingController txtController = TextEditingController();
 List<TextEditingController> txtControllerList = [txtController];
+

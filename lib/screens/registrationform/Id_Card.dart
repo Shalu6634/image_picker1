@@ -63,7 +63,7 @@ class _IdCardState extends State<IdCard> {
                       style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: 22),
+                          fontSize: 20),
                     ),
                   ),
                 ],
@@ -76,7 +76,7 @@ class _IdCardState extends State<IdCard> {
                       'Id         :',
                       style: TextStyle(
                           color: Colors.black,
-                          fontSize: 22,
+                          fontSize: 20,
                           fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -100,7 +100,7 @@ class _IdCardState extends State<IdCard> {
                       'Email-Id :  ',
                       style: TextStyle(
                           color: Colors.black,
-                          fontSize: 22,
+                          fontSize: 20,
                           fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -113,7 +113,7 @@ class _IdCardState extends State<IdCard> {
                       style: TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
-                          fontSize: 22),
+                          fontSize: 20),
                     ),
                   ),
                 ],
