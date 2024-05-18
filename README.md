@@ -23,7 +23,7 @@ https://github.com/Shalu6634/image_picker1/assets/149373622/0b7eab96-66c6-4ec5-a
 
 ## Dynamic textfield
 
-<img src = "https://github.com/Shalu6634/image_picker1/assets/149373622/6151b274-e987-4769-8d81-8269b7ded1fb" width = 25%  height = 25%>
+<img src = "https://github.com/Shalu6634/image_picker1/assets/149373622/125ce396-9746-42c5-ac5d-04ea99362dbd" width = 25%  height = 25%>
 
 
 
