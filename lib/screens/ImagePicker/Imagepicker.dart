@@ -87,7 +87,7 @@ class _ProfilePictureState extends State<ProfilePicture> {
             ],
           ),
           SizedBox(
-            height: 80,
+            height: 60,
           ),
           Container(
             margin: EdgeInsets.all(20),
