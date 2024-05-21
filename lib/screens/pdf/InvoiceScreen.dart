@@ -104,18 +104,18 @@ Future<Uint8List> generatePdf() {
                 ...List.generate(
                   invoiceList.length,
                       (index) => pw.Text(
-                    '${invoiceList[index].name}\t\t\t\t\t',
+                    '${invoiceList[index].name}',
                     style: pw.TextStyle(fontSize: 30),),),
               ],
             ),
-            pw.SizedBox(width: 90),
+            pw.SizedBox(width: 100),
             pw.Column(
               mainAxisAlignment:pw.MainAxisAlignment.spaceBetween,
               children: [
                 ...List.generate(
                   invoiceList.length,
                       (index) => pw.Text(
-                    '${invoiceList[index].price}\t\t\t\t',
+                    '${invoiceList[index].price}',
                     style: pw.TextStyle(fontSize: 30),),),
               ],
             ),
